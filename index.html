@@ -7,20 +7,29 @@ layout: default
   <h1 class="page-heading">Posts</h1>
 
   <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%d.%m.%Y" }}</span>
+    {% for post in paginator.posts %}
+    <li>
+      <span class="post-meta">vom {{ post.date | date: "%d.%m.%Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-          <article class="post-content">
-            {{ post.content }}
-          </article>
-      </li>
+      <h2>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </h2>
+      <article class="post-content">
+        {{ post.excerpt | markdownify }}
+        <a href="{{ post.url | prepend: site.baseurl }}">mehr ...</a>
+      </article>
+    </li>
     {% endfor %}
   </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  <div class="pagination">
+    {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">zurück</a>
+    {% endif %}
+    <span class="page_number ">seite {{ paginator.page }} von {{ paginator.total_pages }}</span>
+    {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">weiter</a>
+    {% endif %}
+  </div>
 
 </div>

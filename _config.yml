@@ -6,7 +6,11 @@ baseurl: ""
 url: "http://cykedev.github.io"
 twitter_username: cyke
 github_username:  cykedev
+permalink: /:year/:month/:day/:title/
+paginate: 8
+paginate_path: "/:num/"
 
 # Build settings
 markdown: kramdown
 highlighter: pygments
+
