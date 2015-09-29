@@ -2,7 +2,7 @@
 layout: 	post
 title:  	"github pages und jekyll"
 date:   	2015-09-29
-meta:		blog github jekyll
+tags:		blog github jekyll
 ---
 
 mal ein bisschen was neues probiert und die seite auf github pages mit jekyll umgezogen
