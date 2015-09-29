@@ -1,17 +1,19 @@
 ---
-layout: post
-title:  "github pages und jekyll"
-date:   2015-09-29
-categories:
+layout: 	post
+title:  	"github pages und jekyll"
+date:   	2015-09-29
+meta:		blog github jekyll
 ---
 
 mal ein bisschen was neues probiert und die seite auf github pages mit jekyll umgezogen
 
 **merkhilfe**
 
-    gem install jekyll
-    jekyll new .
-    jekyll serve --watch
+{% highlight bash %}
+gem install jekyll
+jekyll new .
+jekyll serve --watch
+{% endhighlight %}
 
 alles noch draft ...
 
