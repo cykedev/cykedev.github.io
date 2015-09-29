@@ -1,0 +1,11 @@
+# Site settings
+title: cyke.de
+email: info@cyke.de
+description: diverse geistige ergüsse
+baseurl: ""
+url: "http://cykedev.github.io"
+twitter_username: cyke
+github_username:  cykedev
+
+# Build settings
+markdown: kramdown
