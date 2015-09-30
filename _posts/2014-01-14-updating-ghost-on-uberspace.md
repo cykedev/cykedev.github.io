@@ -1,7 +1,6 @@
 ---
 layout: 	    post
 title:  	    "updating ghost on uberspace"
-date:   	    2014-01-14
 banner_image:   plane.jpg
 meta:		    uberspace, ghost, update
 ---

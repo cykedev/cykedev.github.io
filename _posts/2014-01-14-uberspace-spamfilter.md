@@ -1,7 +1,6 @@
 ---
 layout: 	      post
 title:  	      "uberspace spamfilter"
-date:   	      2014-01-14
 banner_image:   jet.jpg
 meta:		        uberspace, mail, spamfilter, dspam
 ---
