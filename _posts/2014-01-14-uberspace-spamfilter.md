@@ -1,8 +1,9 @@
 ---
-layout: 	post
-title:  	"uberspace spamfilter"
-date:   	2014-01-14
-tags:		uberspace mail spamfilter dspam
+layout: 	      post
+title:  	      "uberspace spamfilter"
+date:   	      2014-01-14
+banner_image:   jet.jpg
+meta:		        uberspace, mail, spamfilter, dspam
 ---
 
 hier meine erfahrungen bzw. ideen zu meinem spamfilter bei [uberspace](uberspace.de).
@@ -11,7 +12,7 @@ meine idee basiert im grunde auf dem [dspam beispiel](http://uberspace.de/dokuwi
 
 es wird eine imap ordnerstruktur angelegt, in der nacher die spammails landen und die verwendet wird, um false positives/negatives zu markieren.
 
-{% highlight bash %}
+{% highlight text %}
 \
  \___ Inbox
   \

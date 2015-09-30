@@ -1,16 +1,56 @@
 # Site settings
 title: cyke.de
-email: info@cyke.de
-description: diverse geistige ergüsse
+tagline: diverse geistige ergüsse
+email: christian@eiden.ch
+description: >
+  hobbyfotograf, softwareentwickler und vater von zwei kindern
 baseurl: ""
-url: "http://cykedev.github.io"
-twitter_username: cyke
-github_username:  cykedev
-permalink: /:year/:month/:day/:title/
-paginate: 8
-paginate_path: "/:num/"
+url: "https://cyke.de"
+logourl: /assets/images/logo.png
+author: "christian eiden"
+author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
+# Theme customization
+theme:
+  # Color for sidebar bar, links, etc
+  highlight_color: "#272935"
+  # Social media links
+  social:
+    github: cykedev
+    twitter: cyke
+
+  # Enable share buttons on post footer
+  show_share_buttons: false
+
+  # Show author picure, name and social links on post footer
+  show_author_info: true
+
+  # Disqus comments manager - shortname
+  # disqus_shortname: gaya-webcreate
+
+  # Google Analytics/Webmaster key, leave blank to ignore
+  google_analytics_key:
+  google_webmaster_key:
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 
+# Permalinks
+permalink:        pretty
+
+# Pagination config
+paginate: 5
+
+# Files/Folders to be excluded from generated _site folder
+exclude:
+  - CNAME
+  - Gemfile
+  - Rakefile
+  - README.md
+  - .gitignore
+  - .sass-cache
+  - Gemfile.lock
+
+# Sass conversion configs
+sass:
+  sass_dir: assets/css/_sass
+  style: :compressed

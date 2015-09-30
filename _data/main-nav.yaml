@@ -1,0 +1,6 @@
+- title: "about" # Title/Caption of the menu item
+  href: "/about" # the page where it pointed
+- title: "archiv"
+  href: "/archiv"
+- title: "impressum"
+  href: "/impressum"

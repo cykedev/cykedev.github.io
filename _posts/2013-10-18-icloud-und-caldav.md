@@ -2,7 +2,7 @@
 layout: 	post
 title:  	"icloud und caldav"
 date:   	2013-10-18
-tags:		apple icloud caldav
+meta:		apple, icloud, caldav
 ---
 evtl. kann es mal notwendig sein, dirket auf einen icloud kalender per caldav zuzugreifen, z.b. wenn man ihn in thunderbird lightning einbinden möchte/muss.
 

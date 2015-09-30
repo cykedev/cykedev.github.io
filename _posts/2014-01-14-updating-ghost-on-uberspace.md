@@ -1,8 +1,9 @@
 ---
-layout: 	post
-title:  	"updating ghost on uberspace"
-date:   	2014-01-14
-tags:		uberspace ghost update
+layout: 	    post
+title:  	    "updating ghost on uberspace"
+date:   	    2014-01-14
+banner_image:   plane.jpg
+meta:		    uberspace, ghost, update
 ---
 
 ich habe dieses wunderbare [update script](https://github.com/dictvm/shellscripts/blob/master/update-ghost.sh) gefunden ...
